@@ -3,7 +3,10 @@ Celem warsztatu jest przećwiczenie strumieni Javy 8 na praktycznych przykładac
 z opisem jaki znajduje się w komentarzu do metody. Prawidłowo zaimplementowana metoda naprawi nie działający test w klasie WorkShopTest.
 Jeżeli nie wiesz jak zaimplementować daną metodę, zostaw ją na później. Kolejność implementacji w większości przypadków nie ma znaczenia, chodź 
 mogą się pojawić funkcje które wykorzystują funkcje implementowane w poprzednich testach. Zadania zostały tak ułożone żeby wymusić użycie 
-wszystkich metod z interfejsu _Stream_.
+wszystkich metod z interfejsu _Stream_. 
+
+Ćwiczeń jest 40, testy do metod jakie należy zaimplementować znajdują się w _WorkShopTest_. Czas potrzebny na wykonanie ćwiczeń może się 
+wahać od 2h do 6h. Po skończeniu ćwiczeń powinieneś umieć wykorzystać strumienie w prawdziwej aplikacji.
 
 Podczas implementacji nie używamy pętli, if-ów, switchy oraz zmiennych (wystarczą stałe). 
 

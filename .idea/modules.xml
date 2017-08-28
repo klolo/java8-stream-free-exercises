@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/java8-workshops.iml" filepath="$PROJECT_DIR$/java8-workshops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java8-workshops_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java8-workshops_main.iml" group="java8-workshops" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java8-workshops_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java8-workshops_test.iml" group="java8-workshops" />
+    </modules>
+  </component>
+</project>

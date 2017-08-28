@@ -1,0 +1,18 @@
+group 'klolo'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile 'com.guigarage:ui-basics:0.7'
+    compile "org.projectlombok:lombok:1.16.10"
+    compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.1.7'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.8.8'
+
+}

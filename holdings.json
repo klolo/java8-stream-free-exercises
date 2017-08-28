@@ -1,0 +1,522 @@
+[
+  {
+    "name": "Nestle",
+    "companies": [
+      {
+        "name": "Nescafe",
+        "users": [
+          {
+            "firstName": "Magdalena",
+            "lastName": "Warszawska",
+            "sex": "WOMAN",
+            "age": 33,
+            "accounts": [
+              {
+                "type": "ROR1",
+                "number": "65423",
+                "amount": 800.989990234375,
+                "currency": "PLN"
+              },
+              {
+                "type": "RO2",
+                "number": "87631",
+                "amount": 100,
+                "currency": "CHF"
+              }
+            ],
+            "permits": [
+              "DEPOSIT",
+              "LOAN",
+              "ORDER_HISTORY"
+            ]
+          },
+          {
+            "firstName": "Amadeusz",
+            "lastName": "Mocarz",
+            "sex": "MAN",
+            "age": 29,
+            "accounts": [
+              {
+                "type": "LO1",
+                "number": "1235478",
+                "amount": 1,
+                "currency": "PLN"
+              }
+            ],
+            "permits": [
+              "ORDER_HISTORY"
+            ]
+          },
+          {
+            "firstName": "Filip",
+            "lastName": "Flirciczart",
+            "sex": "MAN",
+            "age": 33,
+            "accounts": [
+              {
+                "type": "RO1",
+                "number": "72446",
+                "amount": 0.00999999977648258209228515625,
+                "currency": "CHF"
+              }
+            ],
+            "permits": [
+              "DEPOSIT",
+              "TRANSFER",
+              "LOAN",
+              "ORDER_HISTORY"
+            ]
+          },
+          {
+            "firstName": "Zenon",
+            "lastName": "Kucowski",
+            "sex": "OTHER",
+            "age": 21,
+            "accounts": [],
+            "permits": [
+              "DEPOSIT",
+              "TRANSFER",
+              "LOAN",
+              "ORDER_HISTORY"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gerber",
+        "users": [
+          {
+            "firstName": "Zenek",
+            "lastName": "Biednapalka",
+            "sex": "MAN",
+            "age": 18,
+            "accounts": [],
+            "permits": []
+          },
+          {
+            "firstName": "Mariusz",
+            "lastName": "Dreh",
+            "sex": "OTHER",
+            "age": 50,
+            "accounts": [
+              {
+                "type": "RO1",
+                "number": "90753",
+                "amount": 0,
+                "currency": "CHF"
+              }
+            ],
+            "permits": [
+              "DEPOSIT",
+              "TRANSFER",
+              "LOAN",
+              "ORDER_HISTORY"
+            ]
+          },
+          {
+            "firstName": "Marcin",
+            "lastName": "Marcinowicz",
+            "sex": "MAN",
+            "age": 37,
+            "accounts": [
+              {
+                "type": "RO2",
+                "number": "865423",
+                "amount": 0,
+                "currency": "CHF"
+              },
+              {
+                "type": "LO1",
+                "number": "9612541",
+                "amount": 23500.859375,
+                "currency": "USD"
+              },
+              {
+                "type": "RO1",
+                "number": "971561",
+                "amount": 9999,
+                "currency": "USD"
+              },
+              {
+                "type": "RO2",
+                "number": "97156221",
+                "amount": 10,
+                "currency": "CHF"
+              },
+              {
+                "type": "RO1",
+                "number": "867151",
+                "amount": 109823,
+                "currency": "PLN"
+              },
+              {
+                "type": "RO1",
+                "number": "862252",
+                "amount": 123771,
+                "currency": "CHF"
+              },
+              {
+                "type": "RO2",
+                "number": "872562",
+                "amount": 1234,
+                "currency": "PLN"
+              }
+            ],
+            "permits": [
+              "DEPOSIT",
+              "TRANSFER",
+              "LOAN",
+              "ORDER_HISTORY"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nestea",
+        "users": [
+          {
+            "firstName": "Jan",
+            "lastName": "Nowicki",
+            "sex": "MAN",
+            "age": 45,
+            "accounts": [
+              {
+                "type": "LO1",
+                "number": "86252",
+                "amount": 7332,
+                "currency": "PLN"
+              }
+            ],
+            "permits": [
+              "TRANSFER",
+              "LOAN",
+              "ORDER_HISTORY"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Coca-Cola",
+    "companies": [
+      {
+        "name": "Fanta",
+        "users": [
+          {
+            "firstName": "Adam",
+            "lastName": "Wojcik",
+            "sex": "MAN",
+            "age": 17,
+            "accounts": [
+              {
+                "type": "LO1",
+                "number": "6754",
+                "amount": 10.5,
+                "currency": "PLN"
+              },
+              {
+                "type": "ROR1",
+                "number": "1178",
+                "amount": 999.5,
+                "currency": "USD"
+              }
+            ],
+            "permits": [
+              "DEPOSIT",
+              "TRANSFER"
+            ]
+          },
+          {
+            "firstName": "Mateusz",
+            "lastName": "Kowalski",
+            "sex": "MAN",
+            "age": 33,
+            "accounts": [
+              {
+                "type": "ROR1",
+                "number": "8967",
+                "amount": 1000,
+                "currency": "EUR"
+              }
+            ],
+            "permits": [
+              "DEPOSIT",
+              "TRANSFER",
+              "LOAN"
+            ]
+          },
+          {
+            "firstName": "Bartek",
+            "lastName": "Pasibrzuch",
+            "sex": "OTHER",
+            "age": 18,
+            "accounts": [
+              {
+                "type": "ROR1",
+                "number": "112221",
+                "amount": 1667.219970703125,
+                "currency": "PLN"
+              }
+            ],
+            "permits": [
+              "DEPOSIT",
+              "TRANSFER",
+              "LOAN",
+              "ORDER_HISTORY"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sprite",
+        "users": [
+          {
+            "firstName": "Jan",
+            "lastName": "Bazuka",
+            "sex": "MAN",
+            "age": 46,
+            "accounts": [
+              {
+                "type": "ROR1",
+                "number": "1234",
+                "amount": 1888822.125,
+                "currency": "EUR"
+              },
+              {
+                "type": "ROR1",
+                "number": "2346",
+                "amount": 8236626,
+                "currency": "PLN"
+              },
+              {
+                "type": "ROR1",
+                "number": "7676",
+                "amount": 1230,
+                "currency": "EUR"
+              }
+            ],
+            "permits": [
+              "DEPOSIT",
+              "TRANSFER",
+              "LOAN"
+            ]
+          },
+          {
+            "firstName": "Zosia",
+            "lastName": "Psikuta",
+            "sex": "WOMAN",
+            "age": 67,
+            "accounts": [
+              {
+                "type": "ROR1",
+                "number": "0192",
+                "amount": 88890,
+                "currency": "PLN"
+              },
+              {
+                "type": "ROR1",
+                "number": "8474",
+                "amount": 10000.599609375,
+                "currency": "CHF"
+              },
+              {
+                "type": "RO1",
+                "number": "3892",
+                "amount": 70998.796875,
+                "currency": "EUR"
+              }
+            ],
+            "permits": [
+              "DEPOSIT",
+              "TRANSFER",
+              "LOAN",
+              "ORDER_HISTORY"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pepsico",
+    "companies": [
+      {
+        "name": "Lays",
+        "users": [
+          {
+            "firstName": "Kasia",
+            "lastName": "Nawalka",
+            "sex": "WOMAN",
+            "age": 29,
+            "accounts": [
+              {
+                "type": "RO2",
+                "number": "34563",
+                "amount": 2346,
+                "currency": "PLN"
+              },
+              {
+                "type": "RO2",
+                "number": "1122",
+                "amount": 100,
+                "currency": "USD"
+              }
+            ],
+            "permits": [
+              "DEPOSIT",
+              "TRANSFER",
+              "LOAN"
+            ]
+          },
+          {
+            "firstName": "Martin",
+            "lastName": "Prawicowy",
+            "sex": "MAN",
+            "age": 29,
+            "accounts": [
+              {
+                "type": "RO1",
+                "number": "62222",
+                "amount": 1009,
+                "currency": "PLN"
+              },
+              {
+                "type": "RO2",
+                "number": "73344",
+                "amount": 0,
+                "currency": "PLN"
+              }
+            ],
+            "permits": [
+              "DEPOSIT",
+              "TRANSFER",
+              "LOAN",
+              "ORDER_HISTORY"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pepsi",
+        "users": [
+          {
+            "firstName": "Karol",
+            "lastName": "Romanowicz",
+            "sex": "MAN",
+            "age": 64,
+            "accounts": [
+              {
+                "type": "LO1",
+                "number": "8723212",
+                "amount": 2435,
+                "currency": "USD"
+              },
+              {
+                "type": "RO2",
+                "number": "3457117",
+                "amount": 10000984,
+                "currency": "PLN"
+              }
+            ],
+            "permits": [
+              "LOAN"
+            ]
+          },
+          {
+            "firstName": "Marta",
+            "lastName": "Wialkibuz",
+            "sex": "WOMAN",
+            "age": 33,
+            "accounts": [
+              {
+                "type": "ROR2",
+                "number": "45218",
+                "amount": 108987,
+                "currency": "CHF"
+              }
+            ],
+            "permits": [
+              "DEPOSIT",
+              "TRANSFER",
+              "LOAN",
+              "ORDER_HISTORY"
+            ]
+          },
+          {
+            "firstName": "Patryk",
+            "lastName": "Piwny",
+            "sex": "MAN",
+            "age": 28,
+            "accounts": [
+              {
+                "type": "LO1",
+                "number": "24578",
+                "amount": 13873,
+                "currency": "CHF"
+              }
+            ],
+            "permits": [
+              "DEPOSIT",
+              "TRANSFER",
+              "LOAN",
+              "ORDER_HISTORY"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mirinda",
+        "users": [
+          {
+            "firstName": "Zenek",
+            "lastName": "Jawowy",
+            "sex": "MAN",
+            "age": 22,
+            "accounts": [
+              {
+                "type": "LO1",
+                "number": "0000064",
+                "amount": 9766,
+                "currency": "USD"
+              }
+            ],
+            "permits": []
+          },
+          {
+            "firstName": "Alfred",
+            "lastName": "Pasibrzuch",
+            "sex": "MAN",
+            "age": 40,
+            "accounts": [
+              {
+                "type": "ROR2",
+                "number": "2322255",
+                "amount": 1000,
+                "currency": "CHF"
+              },
+              {
+                "type": "ROR2",
+                "number": "666622",
+                "amount": 287,
+                "currency": "CHF"
+              },
+              {
+                "type": "ROR2",
+                "number": "998292",
+                "amount": 1467,
+                "currency": "CHF"
+              }
+            ],
+            "permits": [
+              "DEPOSIT",
+              "TRANSFER",
+              "LOAN",
+              "ORDER_HISTORY"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

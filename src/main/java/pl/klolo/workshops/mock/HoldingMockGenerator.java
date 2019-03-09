@@ -62,5 +62,4 @@ public class HoldingMockGenerator implements IGenerator {
 
         return result;
     }
-
 }

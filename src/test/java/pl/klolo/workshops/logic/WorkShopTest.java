@@ -74,7 +74,8 @@ public class WorkShopTest {
     @Test
     public void shouldReturnAllCompaniesName() {
         final List<String> allCompaniesName = workShop.getAllCompaniesNames();
-        assertEquals("[Nescafe, Gerber, Nestea, Fanta, Sprite, Lays, Pepsi, Mirinda]", allCompaniesName.toString());
+        assertEquals("[Nescafe, Gerber, Nestea, Fanta, Sprite, Lays, Pepsi, Mirinda]",
+                allCompaniesName.toString());
     }
 
     /**
@@ -110,7 +111,8 @@ public class WorkShopTest {
     @Test
     public void shouldReturnAllCompaniesNameAsLinkedList() {
         final LinkedList<String> allCompaniesName = workShop.getAllCompaniesNamesAsLinkedList();
-        assertEquals("[Nescafe, Gerber, Nestea, Fanta, Sprite, Lays, Pepsi, Mirinda]", allCompaniesName.toString());
+        assertEquals("[Nescafe, Gerber, Nestea, Fanta, Sprite, Lays, Pepsi, Mirinda]",
+                allCompaniesName.toString());
     }
 
     /**
@@ -179,7 +181,8 @@ public class WorkShopTest {
      */
     @Test
     public void shouldReturnUserNameForPassedCondition() {
-        assertEquals("[Adam, Alfred, Amadeusz]", workShop.getUsersForPredicate(user -> user.getFirstName().startsWith("A")).toString());
+        assertEquals("[Adam, Alfred, Amadeusz]",
+                workShop.getUsersForPredicate(user -> user.getFirstName().startsWith("A")).toString());
         assertEquals("[Karol, Zosia]", workShop.getUsersForPredicate(user -> user.getAge() > 50).toString());
     }
 
@@ -206,7 +209,8 @@ public class WorkShopTest {
                         .append(" ")
         );
 
-        assertEquals("Nescafe=4 Gerber=3 Nestea=1 Fanta=3 Sprite=2 Lays=2 Pepsi=3 Mirinda=2 ", builder.toString());
+        assertEquals("Nescafe=4 Gerber=3 Nestea=1 Fanta=3 Sprite=2 Lays=2 Pepsi=3 Mirinda=2 ",
+                builder.toString());
     }
 
     /**
@@ -215,7 +219,8 @@ public class WorkShopTest {
     @Test
     public void shouldGetRichestWoman() {
         final Optional<User> richestWoman = workShop.getRichestWoman();
-        assertEquals("Zosia Psikuta", richestWoman.get().getFirstName() + " " + richestWoman.get().getLastName());
+        assertEquals("Zosia Psikuta", richestWoman.get()
+                .getFirstName() + " " + richestWoman.get().getLastName());
     }
 
     /**
@@ -278,7 +283,8 @@ public class WorkShopTest {
      */
     @Test
     public void shouldReturnCompanyMapWithUserListUsingPassedFunction() {
-        final Function<User, String> convertUserToString = user -> user.getFirstName() + " " + user.getLastName() + ": " + user.getAccounts().size();
+        final Function<User, String> convertUserToString = user -> user.getFirstName() + " " + user.getLastName() + ": "
+                + user.getAccounts().size();
         final Map<String, List<String>> companies = workShop.getUserPerCompany(convertUserToString);
 
         assertEquals(8, companies.size());
@@ -414,8 +420,8 @@ public class WorkShopTest {
 
     /**
      * 38.
-     * Stwórz mapę gdzie kluczem jest typ rachunku a wartością mapa mężczyzn posiadających ten rachunek, gdzie kluczem jest
-     * obiekt User a wartoscią suma pieniędzy na rachunku danego typu przeliczona na złotkówki.
+     * Stwórz mapę gdzie kluczem jest typ rachunku a wartością mapa mężczyzn posiadających ten rachunek, gdzie kluczem
+     * jest obiekt User a wartoscią suma pieniędzy na rachunku danego typu przeliczona na złotkówki.
      */
     // TODO: Napisz test z możliwie wszystkimi najważniejszymi assercjami
 

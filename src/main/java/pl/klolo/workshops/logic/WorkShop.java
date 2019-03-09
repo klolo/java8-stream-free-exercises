@@ -69,8 +69,8 @@ class WorkShop {
     }
 
     /**
-     * Zwraca listę wszystkich firm jako listę, której implementacja to LinkedList. Obiektów nie przepisujemy po zakończeniu
-     * działania strumienia.
+     * Zwraca listę wszystkich firm jako listę, której implementacja to LinkedList. Obiektów nie przepisujemy
+     * po zakończeniu działania strumienia.
      */
     LinkedList<String> getAllCompaniesNamesAsLinkedList() {
         return null;
@@ -119,8 +119,8 @@ class WorkShop {
     }
 
     /**
-     * Zwraca liczbę kobiet we wszystkich firmach. Powtarzający się fragment kodu tworzący strumień uzytkowników umieść w osobnej
-     * metodzie. Predicate określający czy mamy doczynienia z kobietą inech będzie polem statycznym w klasie.
+     * Zwraca liczbę kobiet we wszystkich firmach. Powtarzający się fragment kodu tworzący strumień użytkowników umieść
+     * w osobnej metodzie. Predicate określający czy mamy do czynienia z kobietą niech będzie polem statycznym w klasie.
      */
     long getWomanAmount() {
         return -1;
@@ -135,7 +135,7 @@ class WorkShop {
     }
 
     /**
-     * Przelicza kwotę na podanych rachunkach na złotówki za pomocą kursu określonego w enum Currency  i sumuje ją.
+     * Przelicza kwotę na podanych rachunkach na złotówki za pomocą kursu określonego w enum Currency i sumuje ją.
      */
     BigDecimal getTotalCashInPLN(final List<Account> accounts) {
         return null;
@@ -164,7 +164,7 @@ class WorkShop {
     }
 
     /**
-     * Wyszukuje najbogatsza kobietę i zwraca ja. Metoda musi uzwględniać to że rachunki są w różnych walutach.
+     * Wyszukuje najbogatsza kobietę i zwraca ją. Metoda musi uzwględniać to że rachunki są w różnych walutach.
      */
     Optional<User> getRichestWoman() {
         return null;
@@ -178,8 +178,8 @@ class WorkShop {
     }
 
     /**
-     * Metoda zwraca jaki rodzaj rachunku jest najpopularniejszy. Stwórz pomocniczą metdę getAccountStream.
-     * Jeżeli nie udało się znaleźć najpopularnijeszego rachunku metoda ma wyrzucić wyjątek IllegalStateException.
+     * Metoda zwraca jaki rodzaj rachunku jest najpopularniejszy. Stwórz pomocniczą metodę getAccountStream.
+     * Jeżeli nie udało się znaleźć najpopularniejszego rachunku metoda ma wyrzucić wyjątek IllegalStateException.
      * Pierwsza instrukcja metody to return.
      */
     AccountType getMostPopularAccountType() {
@@ -187,8 +187,8 @@ class WorkShop {
     }
 
     /**
-     * Zwraca pierwszego z brzegu użytkownika dla podanego warunku. W przypadku kiedy nie znajdzie użytkownika wyrzuca wyjątek
-     * IllegalArgumentException.
+     * Zwraca pierwszego z brzegu użytkownika dla podanego warunku. W przypadku kiedy nie znajdzie użytkownika wyrzuca
+     * wyjątek IllegalArgumentException.
      */
     User getUser(final Predicate<User> predicate) {
         return null;
@@ -203,7 +203,7 @@ class WorkShop {
 
 
     /**
-     * Zwraca mapę firm, gdzie kluczem jest jej nazwa a wartością lista pracowników przechowywanych jako string
+     * Zwraca mapę firm, gdzie kluczem jest jej nazwa a wartością lista pracowników przechowywanych jako String
      * składający się z imienia i nazwiska. Podpowiedź:  Możesz skorzystać z metody entrySet.
      */
     Map<String, List<String>> getUserPerCompanyAsString() {
@@ -227,7 +227,7 @@ class WorkShop {
     }
 
     /**
-     * Zwraca mapę rachunków, gdzie kluczem jesy numer rachunku, a wartością ten rachunek.
+     * Zwraca mapę rachunków, gdzie kluczem jest numer rachunku, a wartością ten rachunek.
      */
     Map<String, Account> createAccountsMap() {
         return null;
@@ -241,7 +241,7 @@ class WorkShop {
     }
 
     /**
-     * zwraca zbiór wszystkich użytkowników. Jeżeli jest ich więcej niż 10 to obcina ich ilość do 10.
+     * Zwraca zbiór wszystkich użytkowników. Jeżeli jest ich więcej niż 10 to obcina ich ilość do 10.
      */
     Set<User> getUsers() {
         return null;
@@ -275,7 +275,7 @@ class WorkShop {
     }
 
     /**
-     * Metoda wypisuje na ekranie wszystkich użytkowników (imie, nazwisko) posortowanych od z do a.
+     * Metoda wypisuje na ekranie wszystkich użytkowników (imię, nazwisko) posortowanych od z do a.
      * Zosia Psikuta, Zenon Kucowski, Zenek Jawowy ... Alfred Pasibrzuch, Adam Wojcik
      */
     void showAllUser() {
@@ -283,7 +283,8 @@ class WorkShop {
     }
 
     /**
-     * Zwraca mapę, gdzie kluczem jest typ rachunku a wartością kwota wszystkich środków na rachunkach tego typu przeliczona na złotówki.
+     * Zwraca mapę, gdzie kluczem jest typ rachunku a wartością kwota wszystkich środków na rachunkach tego typu
+     * przeliczona na złotówki.
      */
     Map<AccountType, BigDecimal> getMoneyOnAccounts() {
         return null;
@@ -297,8 +298,9 @@ class WorkShop {
     }
 
     /**
-     * Metoda zwraca N losowych użytkowników (liczba jest stała). Skorzystaj z metody generate. Użytkownicy nie mogą się powtarzać, wszystkie zmienną
-     * muszą być final. Jeżeli podano liczbę większą niż liczba użytkowników należy wyrzucić wyjątek (bez zmiany sygnatury metody).
+     * Metoda zwraca N losowych użytkowników (liczba jest stała). Skorzystaj z metody generate. Użytkownicy nie mogą się
+     * powtarzać, wszystkie zmienną muszą być final. Jeżeli podano liczbę większą niż liczba użytkowników należy
+     * wyrzucić wyjątek (bez zmiany sygnatury metody).
      */
     List<User> getRandomUsers(final int n) {
         return null;

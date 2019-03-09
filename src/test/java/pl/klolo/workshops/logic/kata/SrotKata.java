@@ -37,7 +37,8 @@ public class SrotKata {
 
     @Test
     public void exampleTests() {
-        assertEquals("srot the inner ctonnet in dsnnieedcg oredr", sortTheInnerContent("sort the inner content in descending order"));
+        assertEquals("srot the inner ctonnet in dsnnieedcg oredr", sortTheInnerContent("sort the inner " +
+                "content in descending order"));
         assertEquals("wiat for me", sortTheInnerContent("wait for me"));
         assertEquals("tihs ktaa is esay", sortTheInnerContent("this kata is easy"));
     }

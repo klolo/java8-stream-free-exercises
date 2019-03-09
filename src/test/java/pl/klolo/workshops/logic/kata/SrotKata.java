@@ -4,8 +4,9 @@ import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
-import static java.util.stream.Collectors.joining;
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -31,8 +32,19 @@ import static org.junit.Assert.assertEquals;
  */
 public class SrotKata {
 
-    public static String sortTheInnerContent(String words) {
-        return "";
+    private static String sortTheInnerContent(String words) {
+        return Arrays.stream(words.split(" "))
+                .map(word -> {
+                    if (word.length() > 3) {
+                        String sortedInnerContent = Stream.of(word.substring(1, word.length() - 1)
+                                .split(""))
+                                .sorted(Comparator.reverseOrder())
+                                .reduce("", (r, s) -> r + s);
+                        return new StringBuilder(word)
+                                .replace(1, word.length() - 1, sortedInnerContent);
+                    }
+                    return word;
+                }).collect(Collectors.joining(" "));
     }
 
     @Test
@@ -43,3 +55,4 @@ public class SrotKata {
         assertEquals("tihs ktaa is esay", sortTheInnerContent("this kata is easy"));
     }
 }
+//https://www.codewars.com/kata/5898b4b71d298e51b600014b/solutions/java

@@ -21,10 +21,38 @@ import static org.junit.Assert.assertEquals;
  */
 public class Kata {
 
-    private final static BiPredicate<Long, Long> foundBoth = (l1, l2) -> l1 != -1 && l2 != -1;
+    private static long bigger(long num) {
+        char[] cs = String.valueOf(num).toCharArray();
+        for (int i = 0; i < cs.length; i++) {
+            for (int j = 0; j < i; j++) {
+                if (cs[j] < cs[i]) {
+                    char tmp = cs[i];
+                    cs[i] = cs[j];
+                    cs[j] = tmp;
+                }
+            }
+        }
+        return Long.parseLong(String.valueOf(cs));
+    }
 
-    public static long nextBiggerNumber(long n) {
-        return -1;
+    private static long nextBiggerNumber(long n) {
+        if (n <= 10) {
+            return -1;
+        }
+
+        long bigNum = bigger(n);
+        if (n == bigNum) {
+            return -1;
+        }
+
+        long i = n;
+        while (i < bigNum) {
+            if (bigger(i) == bigNum && i > n) {
+                return i;
+            }
+            i++;
+        }
+        return i;
     }
 
     @Test
@@ -36,3 +64,4 @@ public class Kata {
         assertEquals(414, Kata.nextBiggerNumber(144));
     }
 }
+//https://my.oschina.net/u/215547/blog/808282 (zmieniłem w lini 56 return -1 na return i)

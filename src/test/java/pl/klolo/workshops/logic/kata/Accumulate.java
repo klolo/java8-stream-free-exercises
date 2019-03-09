@@ -2,11 +2,20 @@ package pl.klolo.workshops.logic.kata;
 
 import org.junit.Test;
 
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+
 import static org.junit.Assert.assertEquals;
 
 public class Accumulate {
     private static String accumulate(final String input) {
-        return "";
+        return IntStream.range(0, input.length())
+                .mapToObj(i -> IntStream.range(0, i + 1)
+                        .mapToObj(i1 -> i1 == 0 ? String.valueOf(input.charAt(i))
+                                .toUpperCase() : String.valueOf(input.charAt(i))
+                                .toLowerCase())
+                        .collect(Collectors.joining())
+                ).collect(Collectors.joining("-"));
     }
 
     @Test
@@ -22,5 +31,5 @@ public class Accumulate {
         assertEquals(Accumulate.accumulate("HbideVbxncC"), "H-Bb-Iii-Dddd-Eeeee-Vvvvvv-Bbbbbbb-Xxxxxxxx" +
                 "-Nnnnnnnnn-Cccccccccc-Ccccccccccc");
     }
-
 }
+//https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/discuss/java

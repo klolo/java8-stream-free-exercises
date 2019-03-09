@@ -2,6 +2,8 @@ package pl.klolo.workshops.logic.kata;
 
 import org.junit.Test;
 
+import java.util.stream.Stream;
+
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -37,8 +39,18 @@ import static org.junit.Assert.assertEquals;
  */
 public class DRoot {
 
-    public static int digital_root(int n) {
-        return -1;
+    private static int digital_root(int n) {
+        if (n < 10) {
+            return Stream.of(String.valueOf(n)
+                    .split(""))
+                    .mapToInt(Integer::parseInt)
+                    .sum();
+        } else {
+            return digital_root(Stream.of(String.valueOf(n)
+                    .split(""))
+                    .mapToInt(Integer::parseInt)
+                    .sum());
+        }
     }
 
     @Test
@@ -49,3 +61,4 @@ public class DRoot {
         assertEquals("493193->2", DRoot.digital_root(493193), 2);
     }
 }
+//https://www.codewars.com/kata/541c8630095125aba6000c00/solutions/java

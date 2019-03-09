@@ -42,10 +42,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/DRoot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="63" column="71" selection-start-line="63" selection-start-column="71" selection-end-line="63" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/SrotKata.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-298">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/SumDigPower.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-573">
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/klolo/workshops/logic/WorkShop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="302">
+              <caret line="300" column="120" selection-start-line="300" selection-start-column="120" selection-end-line="300" selection-end-column="120" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,22 +99,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/Kata.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="352">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="175">
-                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/Accumulate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/BitCount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,12 +174,6 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/klolo/workshops/mock/CompanyMockGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/klolo/workshops/logic/WorkShopDone.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/Accumulate.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/BitCount.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/DRoot.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/Kata.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/SrotKata.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/SumDigPower.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/klolo/workshops/logic/WorkShop.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -133,6 +181,13 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/klolo/workshops/mock/HoldingMockGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/klolo/workshops/mock/UserMockGenerator.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/WorkShopTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/SortKata.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/Accumulate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/BitCount.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/SrotKata.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/SumDigPower.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/DRoot.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/Kata.java" />
       </list>
     </option>
   </component>
@@ -241,6 +296,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="logic" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="klolo-javastream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="klolo-javastream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+              <item name="kata" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -253,7 +317,7 @@
     <property name="SearchEverywhereHistoryKey" value="stream&#9;FILE&#9;jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/util/stream/Stream.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552146532330" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552148405827" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
@@ -282,7 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SumDigPower.test">
+  <component name="RunManager" selected="JUnit.Kata">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -295,7 +359,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BitCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="klolo-javastream_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.klolo.workshops.logic.kata.SrotKata" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.klolo.workshops.logic.kata" />
+      <option name="MAIN_CLASS_NAME" value="pl.klolo.workshops.logic.kata.BitCount" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DRoot.Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="klolo-javastream_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.klolo.workshops.logic.kata.SrotKata" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.klolo.workshops.logic.kata" />
+      <option name="MAIN_CLASS_NAME" value="pl.klolo.workshops.logic.kata.DRoot" />
+      <option name="METHOD_NAME" value="Tests" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kata" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="klolo-javastream_test" />
       <extension name="coverage">
         <pattern>
@@ -304,8 +401,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.klolo.workshops.logic.kata" />
-      <option name="MAIN_CLASS_NAME" value="pl.klolo.workshops.logic.kata.DRoot" />
-      <option name="METHOD_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="pl.klolo.workshops.logic.kata.Kata" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kata.basicTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="klolo-javastream_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.klolo.workshops.logic.kata.SrotKata" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.klolo.workshops.logic.kata" />
+      <option name="MAIN_CLASS_NAME" value="pl.klolo.workshops.logic.kata.Kata" />
+      <option name="METHOD_NAME" value="basicTests" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -325,60 +438,6 @@
       <option name="METHOD_NAME" value="exampleTests" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumDigPower.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="klolo-javastream_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.klolo.workshops.logic.kata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.klolo.workshops.logic.kata" />
-      <option name="MAIN_CLASS_NAME" value="pl.klolo.workshops.logic.kata.SumDigPower" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WorkShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="klolo-javastream_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.klolo.workshops.logic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="PACKAGE_NAME" value="pl.klolo.workshops.logic" />
-      <option name="MAIN_CLASS_NAME" value="pl.klolo.workshops.logic.WorkShopTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WorkShopTest.shouldGetFastRandomNUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java8-workshops_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.klolo.workshops.logic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.klolo.workshops.logic" />
-      <option name="MAIN_CLASS_NAME" value="pl.klolo.workshops.logic.WorkShopTest" />
-      <option name="METHOD_NAME" value="shouldGetFastRandomNUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -409,19 +468,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.WorkShopTest" />
-      <item itemvalue="JUnit.WorkShopTest.shouldGetFastRandomNUser" />
       <item itemvalue="JUnit.DRoot.Tests" />
+      <item itemvalue="JUnit.BitCount" />
+      <item itemvalue="JUnit.Kata.basicTests" />
       <item itemvalue="JUnit.SrotKata.exampleTests" />
-      <item itemvalue="JUnit.SumDigPower.test" />
+      <item itemvalue="JUnit.Kata" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SumDigPower.test" />
+        <item itemvalue="JUnit.Kata" />
         <item itemvalue="JUnit.SrotKata.exampleTests" />
+        <item itemvalue="JUnit.Kata.basicTests" />
         <item itemvalue="JUnit.DRoot.Tests" />
-        <item itemvalue="JUnit.WorkShopTest" />
-        <item itemvalue="JUnit.WorkShopTest.shouldGetFastRandomNUser" />
+        <item itemvalue="JUnit.BitCount" />
       </list>
     </recent_temporary>
   </component>
@@ -451,24 +510,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WorkShopTest_shouldGetFastRandomNUser - 2017.08.15 at 16h 38m 26s.xml">
-      <configuration name="WorkShopTest.shouldGetFastRandomNUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WorkShopTest_shouldGetFastRandomNUser - 2017.08.15 at 16h 38m 44s.xml">
-      <configuration name="WorkShopTest.shouldGetFastRandomNUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WorkShopTest_shouldGetFastRandomNUser - 2017.08.15 at 16h 57m 31s.xml">
-      <configuration name="WorkShopTest.shouldGetFastRandomNUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WorkShopTest - 2019.03.09 at 15h 12m 13s.xml">
-      <configuration name="WorkShopTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WorkShopTest - 2019.03.09 at 15h 14m 59s.xml">
-      <configuration name="WorkShopTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DRoot_Tests - 2019.03.09 at 15h 25m 46s.xml">
-      <configuration name="DRoot.Tests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SrotKata_exampleTests - 2019.03.09 at 15h 26m 06s.xml">
       <configuration name="SrotKata.exampleTests" configurationId="JUnit" />
     </history-entry>
@@ -481,6 +522,24 @@
     <history-entry file="SumDigPower_test - 2019.03.09 at 15h 28m 41s.xml">
       <configuration name="SumDigPower.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Accumulate - 2019.03.09 at 17h 10m 26s.xml">
+      <configuration name="Accumulate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BitCount - 2019.03.09 at 17h 11m 03s.xml">
+      <configuration name="BitCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DRoot_Tests - 2019.03.09 at 17h 13m 28s.xml">
+      <configuration name="DRoot.Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Kata_basicTests - 2019.03.09 at 17h 14m 30s.xml">
+      <configuration name="Kata.basicTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SrotKata_exampleTests - 2019.03.09 at 17h 16m 27s.xml">
+      <configuration name="SrotKata.exampleTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Kata - 2019.03.09 at 17h 19m 37s.xml">
+      <configuration name="Kata" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="35054000" />
@@ -490,7 +549,7 @@
     <editor active="true" />
     <layout>
       <window_info id="DB Browser" weight="0.32936507" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22857143" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22857143" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -501,7 +560,7 @@
       <window_info anchor="bottom" id="Build" weight="0.32872504" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32950193" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17204301" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17204301" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3170498" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -566,66 +625,6 @@
     <entry file="jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/util/function/IntUnaryOperator.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/klolo/workshops/logic/WorkShopDone.java" />
     <entry file="jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/util/stream/Stream.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/Kata.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/SumDigPower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/SrotKata.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/DRoot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-742">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/BitCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/Accumulate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -709,13 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/klolo/workshops/mock/AccountMockGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="274" column="10" lean-forward="true" selection-start-line="274" selection-start-column="10" selection-end-line="274" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/klolo/workshops/mock/CompanyMockGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1359">
@@ -737,6 +729,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/klolo/workshops/mock/AccountMockGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="274" column="10" lean-forward="true" selection-start-line="274" selection-start-column="10" selection-end-line="274" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/klolo/workshops/logic/WorkShop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="300" column="120" selection-start-line="300" selection-start-column="120" selection-end-line="300" selection-end-column="120" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -747,13 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/klolo/workshops/logic/WorkShop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/WorkShopTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -761,10 +770,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/SrotKata.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="-298">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/SumDigPower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-573">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/Accumulate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/BitCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/DRoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="63" column="71" selection-start-line="63" selection-start-column="71" selection-end-line="63" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/kata/Kata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

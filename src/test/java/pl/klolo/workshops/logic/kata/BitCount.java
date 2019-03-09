@@ -12,8 +12,13 @@ import static org.junit.Assert.assertEquals;
  * Nie korzystamy z metody bitCount w klasie Ineteger.
  */
 public class BitCount {
-    public static int countBits(int n) {
-        return -1;
+    private static int countBits(int n) {
+        char one = '1';
+        return (int) Integer
+                .toBinaryString(n)
+                .chars()
+                .filter(item -> item == one)
+                .count();
     }
 
     @Test
@@ -25,3 +30,4 @@ public class BitCount {
         assertEquals(2, BitCount.countBits(10));
     }
 }
+//https://www.codewars.com/kata/526571aae218b8ee490006f4/solutions/java

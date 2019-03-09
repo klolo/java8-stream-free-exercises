@@ -4,6 +4,9 @@ import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import java.util.stream.LongStream;
 
 import static org.junit.Assert.assertEquals;
 
@@ -26,8 +29,22 @@ import static org.junit.Assert.assertEquals;
  */
 public class SumDigPower {
 
-    public static List<Long> sumDigPow(long a, long b) {
-        return null;
+    private static List<Long> sumDigPow(long a, long b) {
+        return LongStream.rangeClosed(a, b)
+                .filter(SumDigPower::hasProp)
+                .boxed()
+                .collect(Collectors.toList());
+    }
+
+    private static boolean hasProp(long n) {
+        String[] d = ("" + n).split("");
+        return n == IntStream.range(0, d.length)
+                .mapToLong(i -> pow(d[i], i + 1))
+                .sum();
+    }
+
+    private static long pow(String digit, int power) {
+        return (long) Math.pow(Long.parseLong(digit), power);
     }
 
     @Test
@@ -46,3 +63,4 @@ public class SumDigPower {
         assertEquals(Arrays.toString(res), Arrays.toString(sumDigPow(a, b).toArray()));
     }
 }
+//https://www.codewars.com/kata/5626b561280a42ecc50000d1/solutions/java

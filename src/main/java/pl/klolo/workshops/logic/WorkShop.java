@@ -279,10 +279,10 @@ class WorkShop {
     AccountType getMostPopularAccountType() {
         return getAccoutStream()
                 .map(Account::getType)
-                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting())) //x -> x = Function.identity() stackoverflow.com/a/28041480
+                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
                 .entrySet()
                 .stream()
-                .max(Comparator.comparing(Map.Entry::getValue)) //(o1, o2) -> o1.getValue().compareTo(o2.getValue())
+                .max(Comparator.comparing(Map.Entry::getValue))
                 .map(Map.Entry::getKey)
                 .orElseThrow(IllegalStateException::new);
     }

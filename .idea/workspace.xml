@@ -44,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/klolo/workshops/logic/WorkShop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="197" column="55" selection-start-line="197" selection-start-column="55" selection-end-line="197" selection-end-column="55" />
+            <state relative-caret-position="100">
+              <caret line="281" column="123" selection-start-line="281" selection-start-column="123" selection-end-line="281" selection-end-column="151" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/WorkShopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="386" column="72" lean-forward="true" selection-start-line="386" selection-start-column="72" selection-end-line="386" selection-end-column="72" />
+            <state relative-caret-position="-798">
+              <caret line="387" selection-start-line="387" selection-end-line="387" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,6 +82,7 @@
       <find>_</find>
       <find>PLN</find>
       <find>peek</find>
+      <find>pomoc</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;))</replace>
@@ -248,7 +249,7 @@
     <property name="SearchEverywhereHistoryKey" value="stream&#9;FILE&#9;jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/util/stream/Stream.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552153471304" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552153762738" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
@@ -480,7 +481,7 @@
     <editor active="true" />
     <layout>
       <window_info id="DB Browser" weight="0.32936507" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22857143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22857143" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -491,7 +492,7 @@
       <window_info anchor="bottom" id="Build" weight="0.32872504" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32950193" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3640553" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3640553" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3170498" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -741,10 +742,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/accounts.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/klolo/workshops/logic/WorkShopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="386" column="72" lean-forward="true" selection-start-line="386" selection-start-column="72" selection-end-line="386" selection-end-column="72" />
+        <state relative-caret-position="-798">
+          <caret line="387" selection-start-line="387" selection-end-line="387" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -753,8 +757,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/klolo/workshops/logic/WorkShop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="197" column="55" selection-start-line="197" selection-start-column="55" selection-end-line="197" selection-end-column="55" />
+        <state relative-caret-position="100">
+          <caret line="281" column="123" selection-start-line="281" selection-start-column="123" selection-end-line="281" selection-end-column="151" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

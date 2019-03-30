@@ -31,3 +31,10 @@ koniecznie z klasą odpowiedzialną za generowanie danych testowych - _HoldingMo
 wykorzystywanych. 
 
 Uwaga: Dane użyte w mocku są losowe i nie zawsze mogą mieć sens. 
+
+## Przydatne linki
+* https://slides.com/kamillolo/java-7-8-9#/
+* https://klolo.github.io/blog/2017/08/28/java-stream-api-darmowy-kurs/
+
+## Moje propozycje rozwiązań na branchu `solutions`. 
+![java-stream](https://user-images.githubusercontent.com/26818304/55275211-27c84180-52e3-11e9-849d-c281ebf19a00.PNG)

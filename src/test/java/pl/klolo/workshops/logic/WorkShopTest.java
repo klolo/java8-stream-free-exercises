@@ -456,13 +456,13 @@ public class WorkShopTest {
     public void shouldDivideIntoAdultsAndNonAdults() {
         Map<Boolean, Long> countAdultsAndNonAdults = workShop.divideIntoAdultsAndNonAdults();
 
+        assertFalse(countAdultsAndNonAdults.isEmpty());
         assertEquals(1, (long) countAdultsAndNonAdults.get(false));
         assertEquals(19, (long) countAdultsAndNonAdults.get(true));
         assertTrue(countAdultsAndNonAdults.containsKey(false));
         assertTrue(countAdultsAndNonAdults.containsKey(true));
         assertTrue(countAdultsAndNonAdults.containsKey(true));
         assertTrue(countAdultsAndNonAdults.containsKey(false));
-        assertTrue(!countAdultsAndNonAdults.isEmpty());
         assertNotEquals(0, (long) countAdultsAndNonAdults.get(false));
         assertNotEquals(20, (long) countAdultsAndNonAdults.get(true));
         assertNotNull(countAdultsAndNonAdults.get(false));

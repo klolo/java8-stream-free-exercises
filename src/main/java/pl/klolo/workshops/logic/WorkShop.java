@@ -32,7 +32,7 @@ class WorkShop {
     private final List<Holding> holdings;
 
     private final Predicate<User> isWoman = user -> user.getSex().equals(Sex.WOMAN);
-    Predicate<User> isMan = m -> m.getSex() == Sex.MAN;
+    private Predicate<User> isMan = m -> m.getSex() == Sex.MAN;
 
     WorkShop() {
         final HoldingMockGenerator holdingMockGenerator = new HoldingMockGenerator();

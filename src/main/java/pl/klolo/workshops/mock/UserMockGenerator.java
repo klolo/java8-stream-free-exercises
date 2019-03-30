@@ -12,11 +12,6 @@ import java.util.List;
 public class UserMockGenerator implements IGenerator {
     private AccountMockGenerator accountMockGenerator = new AccountMockGenerator();
 
-    private static final String[] AVAILABLE_FIRST_NAME = {"Adam", "Mateusz", "Bartek", "Heniek", "Hela", "Ewa",
-            "Ala", "Zosia"};
-    private static final String[] AVAILABLE_LAST_NAME = {"Wojcik", "Kowalski", "Pasibrzuch", "Wolny", "Zielinski",
-            "August", "Nowak", "Chmiel"};
-
     public List<User> generate() {
         final List<Account> accounts = accountMockGenerator.generate();
         final List<User> result = new LinkedList<>();

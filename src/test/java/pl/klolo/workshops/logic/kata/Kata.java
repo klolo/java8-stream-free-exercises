@@ -2,8 +2,6 @@ package pl.klolo.workshops.logic.kata;
 
 import org.junit.Test;
 
-import java.util.function.BiPredicate;
-
 import static org.junit.Assert.assertEquals;
 
 /**

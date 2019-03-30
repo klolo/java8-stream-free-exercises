@@ -32,6 +32,7 @@ class WorkShop {
     private final List<Holding> holdings;
 
     private final Predicate<User> isWoman = user -> user.getSex().equals(Sex.WOMAN);
+    Predicate<User> isMan = m -> m.getSex() == Sex.MAN;
 
     WorkShop() {
         final HoldingMockGenerator holdingMockGenerator = new HoldingMockGenerator();
@@ -232,7 +233,7 @@ class WorkShop {
         return getUserStream()
                 .filter(user -> user.getAge() > age)
                 .peek(System.out::println)
-                .filter(user -> user.getSex().equals(Sex.MAN))
+                .filter(isMan)
                 .map(User::getFirstName)
                 .collect(Collectors.toList());
     }
@@ -330,7 +331,7 @@ class WorkShop {
     <T> Map<String, List<T>> getUserPerCompany(final Function<User, T> converter) {
         return getCompanyStream()
                 .collect(Collectors.toMap(
-                        c -> c.getName(),
+                        Company::getName,
                         c -> c.getUsers()
                                 .stream()
                                 .map(converter)
@@ -344,7 +345,6 @@ class WorkShop {
      */
     Map<Boolean, Set<String>> getUserBySex() {
         Predicate<User> isManOrWoman = m -> m.getSex() == Sex.MAN || m.getSex() == Sex.WOMAN;
-        Predicate<User> isMan = m -> m.getSex() == Sex.MAN;
         return getUserStream()
                 .filter(isManOrWoman)
                 .collect(partitioningBy(isMan, mapping(User::getLastName, toSet())));
@@ -384,8 +384,8 @@ class WorkShop {
      * Skorzystaj z strumieni i try-resources.
      */
     void saveAccountsInFile(final String fileName) {
-        try {
-            Files.write(Paths.get(fileName), (Iterable<String>) getAccoutStream()
+        try (Stream<String> lines = Files.lines(Paths.get(fileName))) {
+            Files.write(Paths.get(String.valueOf(lines)), (Iterable<String>) getAccoutStream()
                     .map(account -> account.getNumber() + "|" + account.getAmount() + "|" + account.getCurrency())
                     ::iterator);
         } catch (IOException e) {
@@ -428,16 +428,16 @@ class WorkShop {
      * Zwraca mapę, gdzie kluczem jest typ rachunku a wartością kwota wszystkich środków na rachunkach tego typu
      * przeliczona na złotówki.
      */
+    //TODO: fix
+    // java.lang.AssertionError:
+    // Expected :87461.4992
+    // Actual   :87461.3999
     Map<AccountType, BigDecimal> getMoneyOnAccounts() {
         return getAccoutStream()
                 .collect(Collectors.toMap(Account::getType, account -> account.getAmount()
                         .multiply(BigDecimal.valueOf(account.getCurrency().rate))
                         .round(new MathContext(6, RoundingMode.DOWN)), BigDecimal::add));
     }
-    /*java.lang.AssertionError:
-        Expected :87461.4992
-        Actual   :87461.3999
-    */
 
     /**
      * Zwraca sumę kwadratów wieków wszystkich użytkowników.
@@ -498,5 +498,66 @@ class WorkShop {
     private Stream<User> getUserStream() {
         return getCompanyStream()
                 .flatMap(company -> company.getUsers().stream());
+    }
+
+    /**
+     * 38.
+     * Stwórz mapę gdzie kluczem jest typ rachunku a wartością mapa mężczyzn posiadających ten rachunek, gdzie kluczem
+     * jest obiekt User a wartością suma pieniędzy na rachunku danego typu przeliczona na złotkówki.
+     */
+    //TODO: zamiast Map<Stream<AccountType>, Map<User, BigDecimal>> metoda ma zwracać
+    // Map<AccountType>, Map<User, BigDecimal>>, zweryfikować działania metody
+    Map<Stream<AccountType>, Map<User, BigDecimal>> getMapWithAccountTypeKeyAndSumMoneyForManInPLN() {
+        return getCompanyStream()
+                .collect(Collectors.toMap(
+                        company -> company.getUsers()
+                                .stream()
+                                .flatMap(user -> user.getAccounts()
+                                        .stream()
+                                        .map(Account::getType)),
+                        this::manWithSumMoneyOnAccounts
+                ));
+    }
+
+    private Map<User, BigDecimal> manWithSumMoneyOnAccounts(final Company company) {
+        return company
+                .getUsers()
+                .stream()
+                .filter(isMan)
+                .collect(Collectors.toMap(
+                        Function.identity(),
+                        this::getSumUserAmountInPLN
+                ));
+    }
+
+    private BigDecimal getSumUserAmountInPLN(final User user) {
+        return user.getAccounts()
+                .stream()
+                .map(this::getAccountAmountInPLN)
+                .reduce(BigDecimal.ZERO, BigDecimal::add);
+    }
+
+    /**
+     * 39. Policz ile pieniędzy w złotówkach jest na kontach osób które nie są ani kobietą ani mężczyzną.
+     */
+    BigDecimal getSumMoneyOnAccountsForPeopleOtherInPLN() {
+        return getUserStream()
+                .filter(user -> user.getSex().equals(Sex.OTHER))
+                .map(this::getUserAmountInPLN)
+                .reduce(BigDecimal.ZERO, BigDecimal::add)
+                .round(MathContext.DECIMAL32);
+    }
+
+    /**
+     * 40. Wymyśl treść polecenia i je zaimplementuj.
+     * Policz ile osób pełnoletnich posiada rachunek oraz ile osób niepełnoletnich posiada rachunek. Zwróć mapę
+     * przyjmując klucz True dla osób pełnoletnich i klucz False dla osób niepełnoletnich. Osoba pełnoletnia to osoba
+     * która ma więcej lub równo 18 lat
+     */
+    Map<Boolean, Long> divideIntoAdultsAndNonAdults() {
+        Predicate<User> ofAge = u -> u.getAge() >= 18;
+
+        return getUserStream()
+                .collect(Collectors.partitioningBy(ofAge, Collectors.counting()));
     }
 }

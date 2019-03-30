@@ -10,6 +10,7 @@ import pl.klolo.workshops.domain.User;
 import java.math.BigDecimal;
 import java.util.*;
 import java.util.function.Function;
+import java.util.stream.Stream;
 
 import static org.junit.Assert.*;
 import static org.junit.Assert.assertEquals;
@@ -421,18 +422,52 @@ public class WorkShopTest {
     /**
      * 38.
      * Stwórz mapę gdzie kluczem jest typ rachunku a wartością mapa mężczyzn posiadających ten rachunek, gdzie kluczem
-     * jest obiekt User a wartoscią suma pieniędzy na rachunku danego typu przeliczona na złotkówki.
+     * jest obiekt User a wartością suma pieniędzy na rachunku danego typu przeliczona na złotkówki.
      */
-    // TODO: Napisz test z możliwie wszystkimi najważniejszymi assercjami
+    @Test
+    public void shouldReturnManWithSumMoneyOnAccounts() {
+        //TODO: dopisać więcej testów po porawce samej metody (tego co zwraca)
+        Map<Stream<AccountType>, Map<User, BigDecimal>> manWithSumMoneyOnAccountsTest =
+                workShop.getMapWithAccountTypeKeyAndSumMoneyForManInPLN();
+        assertEquals(8, manWithSumMoneyOnAccountsTest.size());
+        assertFalse(manWithSumMoneyOnAccountsTest.isEmpty());
+    }
 
     /**
      * 39. Policz ile pieniędzy w złotówkach jest na kontach osób które nie są ani kobietą ani mężczyzną.
      */
-    // TODO: Napisz test z możliwie wszystkimi najważniejszymi assercjami
+    @Test
+    public void shouldGetAllMoneyInTheAccountsOfPeopleOther() {
+        BigDecimal sumMoneyOnAccountsForPeopleOtherInPLN = workShop.getSumMoneyOnAccountsForPeopleOtherInPLN();
+
+        assertEquals(new BigDecimal("1667.000"), sumMoneyOnAccountsForPeopleOtherInPLN);
+        assertNotEquals(new BigDecimal("1666.000"), sumMoneyOnAccountsForPeopleOtherInPLN);
+        assertNotNull(sumMoneyOnAccountsForPeopleOtherInPLN);
+        assertNotSame(Integer.TYPE, sumMoneyOnAccountsForPeopleOtherInPLN.getClass());
+    }
 
     /**
      * 40. Wymyśl treść polecenia i je zaimplementuj.
+     * Policz ile osób pełnoletnich posiada rachunek oraz ile osób niepełnoletnich posiada rachunek. Zwróć mapę
+     * przyjmując klucz True dla osób pełnoletnich i klucz False dla osób niepełnoletnich. Osoba pełnoletnia to osoba
+     * która ma więcej lub równo 18 lat
      */
-    // TODO: Napisz test z możliwie wszystkimi najważniejszymi assercjami
+    @Test
+    public void shouldDivideIntoAdultsAndNonAdults() {
+        Map<Boolean, Long> countAdultsAndNonAdults = workShop.divideIntoAdultsAndNonAdults();
 
+        assertEquals(1, (long) countAdultsAndNonAdults.get(false));
+        assertEquals(19, (long) countAdultsAndNonAdults.get(true));
+        assertTrue(countAdultsAndNonAdults.containsKey(false));
+        assertTrue(countAdultsAndNonAdults.containsKey(true));
+        assertTrue(countAdultsAndNonAdults.containsKey(true));
+        assertTrue(countAdultsAndNonAdults.containsKey(false));
+        assertTrue(!countAdultsAndNonAdults.isEmpty());
+        assertNotEquals(0, (long) countAdultsAndNonAdults.get(false));
+        assertNotEquals(20, (long) countAdultsAndNonAdults.get(true));
+        assertNotNull(countAdultsAndNonAdults.get(false));
+        assertNotNull(countAdultsAndNonAdults.get(true));
+        assertNotNull(countAdultsAndNonAdults.values());
+        assertNotSame(List.class, countAdultsAndNonAdults.getClass());
+    }
 }

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/java8-workshops.iml" filepath="$PROJECT_DIR$/java8-workshops.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java8-workshops_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java8-workshops_main.iml" group="java8-workshops" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java8-workshops_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java8-workshops_test.iml" group="java8-workshops" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/klolo-javastream.iml" filepath="$PROJECT_DIR$/.idea/modules/klolo-javastream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/klolo-javastream_main.iml" filepath="$PROJECT_DIR$/.idea/modules/klolo-javastream_main.iml" group="klolo-javastream" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/klolo-javastream_test.iml" filepath="$PROJECT_DIR$/.idea/modules/klolo-javastream_test.iml" group="klolo-javastream" />
     </modules>
   </component>
 </project>

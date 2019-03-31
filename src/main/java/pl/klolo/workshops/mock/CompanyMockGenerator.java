@@ -12,7 +12,8 @@ public class CompanyMockGenerator implements IGenerator {
     public List<Company> generate() {
         final UserMockGenerator userMockGenerator = new UserMockGenerator();
         final List<User> users = userMockGenerator.generate();
-        final List<Company> result = Arrays.asList(
+
+        return Arrays.asList(
                 Company //1
                         .builder()
                         .name("Fanta")
@@ -98,7 +99,5 @@ public class CompanyMockGenerator implements IGenerator {
                         )
                         .build()
         );
-
-        return result;
     }
 }

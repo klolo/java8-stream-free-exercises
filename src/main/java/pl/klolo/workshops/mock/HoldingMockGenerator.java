@@ -54,13 +54,11 @@ public class HoldingMockGenerator implements IGenerator {
     public List<Holding> generate() {
         final CompanyMockGenerator companyMockGenerator = new CompanyMockGenerator();
         final List<Company> companies = companyMockGenerator.generate();
-        final List<Holding> result = Arrays.asList(
+
+        return Arrays.asList(
                 new Holding("Nestle", Arrays.asList(companies.get(2), companies.get(3), companies.get(4))),
                 new Holding("Coca-Cola", Arrays.asList(companies.get(0), companies.get(1))),
                 new Holding("Pepsico", Arrays.asList(companies.get(5), companies.get(6), companies.get(7)))
         );
-
-        return result;
     }
-
 }
